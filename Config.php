@@ -4,5 +4,5 @@ namespace Roots\Sage;
 
 class Config extends \Illuminate\Config\Repository
 {
-    	protected static $instance;
+    protected static $instance;
 }
