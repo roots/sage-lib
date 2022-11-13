@@ -28,7 +28,7 @@
     }
   },
   "require": {
-    "php": "^7.2.5",
+    "php": "^7.2.5 | ^8.0",
     "composer/installers": "~1.0",
     "illuminate/view": "~7.0",
     "illuminate/config": "~7.0"
@@ -40,5 +40,10 @@
     "test": [
       "phpcs --ignore=vendor --extensions=php --standard=PSR2 ."
     ]
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
   }
 }
